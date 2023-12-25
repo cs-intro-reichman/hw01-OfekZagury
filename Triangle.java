@@ -6,5 +6,16 @@
 public class Triangle {
 	public static void main(String[] args) {
 		// Put your code here	
+		int a = Integer.parseInt(args[0]);
+        int b = Integer.parseInt(args[1]);
+        int c = Integer.parseInt(args[2]);
+
+        boolean check1 = (a + b) > c;
+        boolean check2 = (a + c) > b;
+        boolean check3 = (b + c) > a;
+
+        boolean answer = check1 && check2 && check3;
+
+        System.out.println(a + ", " + b + ", " + c + ": " + answer);
 	}
 }
