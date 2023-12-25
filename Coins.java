@@ -11,6 +11,6 @@ public class Coins {
 
         int cents = amount % 25;
 
-        System.out.println("use " + quaters + " quaters and " + cents + " cents");
+        System.out.println("Use " + quaters + " quaters and " + cents + " cents");
 	}
 }

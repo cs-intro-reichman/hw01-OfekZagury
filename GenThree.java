@@ -21,7 +21,7 @@ public class GenThree {
         System.out.println(ans1);
         System.out.println(ans2);
         System.out.println(ans3);
-        System.out.println("The minimal generated number was: " + minans);
+        System.out.println("The minimal generated number was " + minans);
 
 	}
 }
