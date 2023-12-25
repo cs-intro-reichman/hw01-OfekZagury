@@ -6,7 +6,7 @@ public class GenThree {
 	public static void main(String[] args) {
 		// Put your code here	
 		int a = Integer.parseInt(args[0]);
-        int b = Integer.parseInt(args[1]);
+        int b = Integer.parseInt(args[1]) - 1;
 
         int min = Math.min(a,b);
         int max = Math.max(a,b);
@@ -22,6 +22,8 @@ public class GenThree {
         System.out.println(ans2);
         System.out.println(ans3);
         System.out.println("The minimal generated number was " + minans);
+    
+
 
 	}
 }
